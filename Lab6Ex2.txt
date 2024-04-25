@@ -1,0 +1,11 @@
+Diagrama din figura 34 contine 4 clase.
+-Student cu diferite atribute(nume, adresa, nrTelefon, email, IDstudent, mediaNotelor), o operatie care verifica 
+daca studentul este eligibil(esteEligibilInscriere()) pentru a fi inscris si un getter pentru seminariile alese(getSeminariiAlese()).
+-Inscriere este o clasa cu un singur atribut(notePrimite), exista o relatie de asociere intre Student si are doi
+getteri(getMediaLaZi(), getNotaFinala()), prin care verifica preia notele Studentului pentru a verifica daca poate
+fi inscris sau respins.
+-Seminar care are 3 atribute(nume, IDseminar, taxe), are doua operatii(addStudent(), dropStudent()) si este creata
+de clasa Profesor
+-Profesor are 5 atribute(nume, adresa, nrTelefon, email, salar) si aceasta clasa poate preda Seminarii; intre clasele Seminar si Profesor se realizeaza o relatie de asociere
+In ceea ce priveste multiplicitatile fiecarei clase, unui Student i se atribuie 1 sau mai multe Inscrieri, acelasi Student se afla pe o lista de asteptare de 0 sau mai multi Studenti, care urmeaza sa primeasca
+fiecare 0 sau mai multe Seminarii, pot exista 0 sau mai multe Seminarii create de Profesori si poate fi cel mult un Profesor care sa predea seminarul respectiv. 
